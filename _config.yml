@@ -95,7 +95,7 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
 
 # Hatena Star
 hatena_star_token: 7743c1cecf139a06cdec1317a18860b5ef3f3194
