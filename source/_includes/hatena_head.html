@@ -1,0 +1,20 @@
+{% if site.hatena_star_token %}
+  <script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+  <script type="text/javascript">
+    Hatena.Star.Token = '{{ site.hatena_star_token }}';
+    Hatena.Star.SiteConfig = {
+      entryNodes: {
+        'article': [
+          {
+            uri: 'header h1 a',
+            title: 'header h1',
+            container: 'h1'
+          }
+        ]
+      }
+    };
+  </script>
+{% endif %}
+{% if site.hatena_bookmark %}
+  <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+{% endif %}
