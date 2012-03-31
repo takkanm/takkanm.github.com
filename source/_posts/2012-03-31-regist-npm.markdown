@@ -31,5 +31,5 @@ $ npm init
 作成したnpmモジュールをpackage registry に登録します。package.jsonのあるディレクトリでnpm publishします。
 
 ```
-$ nom publish
+$ npm publish
 ```
