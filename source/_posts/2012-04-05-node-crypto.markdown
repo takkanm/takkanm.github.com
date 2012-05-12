@@ -8,7 +8,7 @@ categories: diary
 
 [Crypto](http://nodejs.org/docs/latest/api/crypto.html)モジュールを使用すればいいのですね。
 
-```coffee
+```coffeescript
 crypto = require 'crypto'
 
 # sha1でハッシュを作ることを指定
