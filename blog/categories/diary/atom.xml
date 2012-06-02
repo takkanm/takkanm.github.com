@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: diary | ガブリ途中下車の旅〜マサイ族の砦〜]]></title>
+  <link href="http://takkanm.github.com/blog/categories/diary/atom.xml" rel="self"/>
+  <link href="http://takkanm.github.com/"/>
+  <updated>2012-06-02T23:16:31+09:00</updated>
+  <id>http://takkanm.github.com/</id>
+  <author>
+    <name><![CDATA[takkanm]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[openFrameworksを触りだしました]]></title>
+    <link href="http://takkanm.github.com/blog/2012/05/12/beginning-open-frameworks/"/>
+    <updated>2012-05-12T12:43:00+09:00</updated>
+    <id>http://takkanm.github.com/blog/2012/05/12/beginning-open-frameworks</id>
+    <content type="html"><![CDATA[<p><a href="http://yoppa.org/blog/3751.html">openFrameworks Tokyo Workshop #1</a>の記事を読んで、<a href="http://www.openframeworks.cc/">openFrameworks</a>への興味が再燃してきました。</p>
+
+<p>openFrameworksで新規プロジェクトを始める場合、exsamplesにはいっているemptyExsampleをコピーして始めるようです。が、このままだとプロジェクト名もemptyExsampleのままなので、そのディレクトリ内になるファイルの'emptyExsample'という文字列を全て置換してから、プログラミングを始めるということをやっているんだけど、これが正しいやり方なのかしら…</p>
+
+<p>しばらく、いじってみます</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[node.jsでsha1の値が欲しいとき]]></title>
+    <link href="http://takkanm.github.com/blog/2012/04/05/node-crypto/"/>
+    <updated>2012-04-05T06:45:00+09:00</updated>
+    <id>http://takkanm.github.com/blog/2012/04/05/node-crypto</id>
+    <content type="html"><![CDATA[<p><a href="http://nodejs.org/docs/latest/api/crypto.html">Crypto</a>モジュールを使用すればいいのですね。</p>
+
+<p>```coffeescript
+crypto = require 'crypto'</p>
+
+<h1>sha1でハッシュを作ることを指定</h1>
+
+<p>sha1_hash = crypto.createHash 'sha1'</p>
+
+<h1>使用する原文を追加</h1>
+
+<p>sha1_hash.update 'abcdefg'</p>
+
+<h1>ダイジェストの値を求める。引数でhexやbase64等を指定できる</h1>
+
+<p>sha1_hash.digest 'hex' #=> 2fb5e13419fc89246865e7a324f476ec624e8740
+```</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[npmモジュールを公開する方法]]></title>
+    <link href="http://takkanm.github.com/blog/2012/03/31/regist-npm/"/>
+    <updated>2012-03-31T18:06:00+09:00</updated>
+    <id>http://takkanm.github.com/blog/2012/03/31/regist-npm</id>
+    <content type="html"><![CDATA[<p><a href="http://takkanm.github.com/blog/2012/03/30/node-im-kayac-0-dot-0-0/">先日</a>npmモジュールを作成し、公開したときのメモを残しておきます。</p>
+
+<h2>ユーザ登録</h2>
+
+<p>まず、ユーザー登録します。ユーザ登録するには、npm adduserコマンドを実行します。</p>
+
+<p><code>
+$ npm adduser
+</code></p>
+
+<p>コマンドを実行すると、対話的にユーザ名とemailアドレスとパスワードを入力します。その情報は~/.npmrcに保存されます。</p>
+
+<h2>package.jsonの作成</h2>
+
+<p>npmモジュールの情報を保存しておくpackage.jsonを作成します。npm initを実行することで、対話的に情報を入力していきます。</p>
+
+<p><code>
+$ npm init
+</code></p>
+
+<h2>package registryへの登録</h2>
+
+<p>作成したnpmモジュールをpackage registry に登録します。package.jsonのあるディレクトリでnpm publishします。</p>
+
+<p><code>
+$ npm publish
+</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[im.kayac.comにメッセージを送るnpmモジュールを書いた]]></title>
+    <link href="http://takkanm.github.com/blog/2012/03/30/node-im-kayac-0-dot-0-0/"/>
+    <updated>2012-03-30T08:33:00+09:00</updated>
+    <id>http://takkanm.github.com/blog/2012/03/30/node-im-kayac-0-dot-0-0</id>
+    <content type="html"><![CDATA[<p>昨年iPhoneに変更して、push通知サービスに<a href="http://boxcar.io/">Boxcar</a>を使っていたのですが、私のiPhoneではうまく動かないことが多いため不満でした。 そこで、(今更感はありますが)<a href="http://im.kayac.com/">im.kayac.com</a>を使うことにしてみました。</p>
+
+<p>最近coffeescriptを触る機会が増えてきたので、node.jsで使えるライブラリをcoffeescriptで書いてnpm化してみました。node.jsでリアルタイムな何かをiPhoneやAndroidに通知したいとき等に、お使いください。</p>
+
+<ul>
+<li><a href="http://search.npmjs.org/#/node-im-kayac">npm registry</a></li>
+<li><a href="https://github.com/takkanm/node-im-kayac">takkanm/node-im-kayac</a></li>
+</ul>
+
+
+<p>まだ、メッセージを送るだけしかできないので、残りのところもちゃんと作っていこうと思います。</p>
+
+<p>初めてのnpmモジュール作成だったので(その手順とかは後で書く)、このモジュールの配置でいいのかとか大変疑問なので有識者に聞いてみたいところ。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Clean Coderを読んだ]]></title>
+    <link href="http://takkanm.github.com/blog/2012/02/09/reading-clean-coder/"/>
+    <updated>2012-02-09T20:36:00+09:00</updated>
+    <id>http://takkanm.github.com/blog/2012/02/09/reading-clean-coder</id>
+    <content type="html"><![CDATA[<p>ボブおじさんの新作、<a href="http://www.assoc-amazon.jp/e/ir?t=takkanm-22&amp;l=as2&amp;o=9&amp;a=4048860690">Clean Coder</a>を読みました。</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/4797347783?ie=UTF8&amp;tag=takkanm-22">アジャイルソフトウェア開発の奥義</a>や<a href="http://www.amazon.co.jp/gp/product/4048676881?ie=UTF8&amp;tag=takkanm-22">Clean Code</a>はコードに対するお話しでしたが、この本はプロとしての職業倫理や職業感についての本でした。背筋が伸びるようなことが書かれているのですが、ボブおじさんが若い頃のエピーソードと一緒に綴られているので、勇気づけられる感もあります。 内容も、どのような態度をもって仕事をするかという話から、どういうプラクティスをやらないといけないのか、チームでの仕事の仕方、教育についてと多岐にわたっています。<a href="http://www.oreilly.co.jp/books/9784873114798/">プログラマが知るべき97のこと</a>で、咳さんが書いている「ロールプレイングゲーム」の理想のプログラマにした人の例が書かれているという印象をうけました。</p>
+
+<p>プロとしての生き方という観点だと<a href="http://estore.ohmsha.co.jp/titles/978427406793P">情熱プログラマー</a>がありますが、情熱プログラマーはキャリアの形成についてのお話ですが、Clean Coderは今の仕事をどのようにこなすかという話でした。</p>
+
+<p>ページ数も200ページぐらいなので、さくっと読めておすすめです。</p>
+]]></content>
+  </entry>
+  
+</feed>

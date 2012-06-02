@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ruby | ガブリ途中下車の旅〜マサイ族の砦〜]]></title>
+  <link href="http://takkanm.github.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://takkanm.github.com/"/>
+  <updated>2012-06-02T23:16:31+09:00</updated>
+  <id>http://takkanm.github.com/</id>
+  <author>
+    <name><![CDATA[takkanm]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[みなとRuby会議01にいってきた]]></title>
+    <link href="http://takkanm.github.com/blog/2012/06/02/minatorubyconf01/"/>
+    <updated>2012-06-02T23:05:00+09:00</updated>
+    <id>http://takkanm.github.com/blog/2012/06/02/minatorubyconf01</id>
+    <content type="html"><![CDATA[<p><img src="http://farm9.staticflickr.com/8164/7320447906_12302d8ab1_m.jpg" alt="yokohama.rb" /></p>
+
+<p>アイドルのPV撮影とかぶってましたが、みなとRuby会議にいってきました。とてもよい会議でした。</p>
+
+<p>席はスタッフ側がテーブルを決めており、最初の「ソーシャルコーディング」と題したコーナーで、
+同じテーブルの人同士でペアプロをしました。わたしは高橋会長とペアプロしました。会長とは
+いろんなところで顔をあわすことがあるのですが、一緒にプログラミングをするというのは当然初めてで楽しかったです。</p>
+
+<p>次にminami.rbのつじたさんによる発表もよかったです。2年ぐらい前のRails勉強会@東京で、いきなり
+「大阪から来ました」と言われてたときの印象がものすごく強いです。その後、単身RailsConfとかも行かれてたし。
+とても、アグレッシブなの方なのですが、コミュニティに参加してみようという発表はとても実感がこもっている感じで胸うつ感じでした。</p>
+
+<p>2番手の発表者は、大場様。Railsの紹介なのですが、大場様がいかにRailsが好きかということがよく伝わる発表でした。</p>
+
+<p>最後のnagachikaさんのEnumerable::Lazyの話も大変おもしろかったです。LazyかわいいよLazy。会が終わった後にnagachikaさんとnari3さんとでLazy議論できたのも大変よかったです。nagachikaさんが発表のサンプルのためにと
+書かれた<a href="https://github.com/nagachika/lazy_sample">継続フレームワークのようなサンプル</a>のコードを後で読みたいと思います。</p>
+
+<p>閉会の挨拶でYokohama.rbファウンダーのdan5yaさんが、「Yokohama.rbはみんなが好き勝手にやっているコミュニティ。継続していくことを目標としている」というのが、とてもよかったです。いいコミュニティだなぁと思いました。</p>
+
+<p>あと余談になりますが、わたしにとってYokohama.rbは1, 2年ぐらい前のRails勉強会@東京に来てくださってた方々(今もお世話になっている方々も多いですが)がいっぱいいる感じで、その人達に会えてとてもよかったです。</p>
+
+<p>みなとRuby会議02, 03の開催、大変期待しています。みなさん、お疲れさまでした。</p>
+]]></content>
+  </entry>
+  
+</feed>
