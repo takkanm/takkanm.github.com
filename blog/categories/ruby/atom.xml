@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | ガブリ途中下車の旅〜マサイ族の砦〜]]></title>
   <link href="http://takkanm.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://takkanm.github.com/"/>
-  <updated>2012-06-02T23:16:31+09:00</updated>
+  <updated>2012-06-21T22:48:33+09:00</updated>
   <id>http://takkanm.github.com/</id>
   <author>
     <name><![CDATA[takkanm]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[永和システムマネジメントが札幌Ruby会議のスポンサーになりましたと同僚が発表しますのお知らせ]]></title>
+    <link href="http://takkanm.github.com/blog/2012/06/21/sprk2012-sponsor-announcement/"/>
+    <updated>2012-06-21T22:28:00+09:00</updated>
+    <id>http://takkanm.github.com/blog/2012/06/21/sprk2012-sponsor-announcement</id>
+    <content type="html"><![CDATA[<p>勤務先の永和システムマネジメントが札幌 Ruby 会議 2012 の <a href="http://sapporo.rubykaigi.org/2012/ja/sponsors.html">Platinum スポンサー</a> になりました。</p>
+
+<p>あと、札幌 Ruby 会議 2012 では(今のところ)以下のメンバーが発表する予定です。</p>
+
+<ul>
+<li><a href="https://github.com/sprk2012/sprk2012-cfp/tree/master/moro-let_your_test_drive_your_development">moro - Let your test drive your development</a></li>
+<li><a href="https://github.com/sprk2012/sprk2012-cfp/tree/master/kakutani-dci">kakutani - DCI and the application builds our mental models </a></li>
+<li><a href="https://github.com/sprk2012/sprk2012-cfp/tree/master/ursm-ruby_on_rails_the_bad_parts">ursm - Ruby on Rails: The Bad Parts</a></li>
+<li><a href="https://github.com/sprk2012/sprk2012-cfp/tree/master/takkanm-our-code-went-to-cloud">takkanm - Our Code Went To Cloud. </a></li>
+</ul>
+
+
+<p>いずれの発表も弊社で Ruby を使って開発しているメンバーの興味あることや知見の話になると思うので、興味のある方は来週発売するらしい参加チケットを買って札幌に聞きに来てください。発表者はモチロンですが、弊社のおっさんから若手メンバーたちも多数参加予定なので、弊社に興味がある人は是非絡んでください。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[みなとRuby会議01にいってきた]]></title>
