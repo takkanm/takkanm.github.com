@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>ヒミズを見てきた - ガブリ途中下車の旅〜マサイ族の砦〜</title>
+  <title>リーダブルコードを読んだ - ガブリ途中下車の旅〜マサイ族の砦〜</title>
   <meta name="author" content="takkanm">
 
   
-  <meta name="description" content="ヒミズを見てきた。劇場で見る映画として今年2本目。一本目は宇宙人ポールだった。これは後で書くかもしれない。 もともと古谷実作品が好きで、漫画版のヒミズは連載中に読んでいてけっこう好きな作品だった。とはいえ、精神状態によって読めるとき読めないときがあるんだけど。で、監督は園子音。 &hellip;">
+  <meta name="description" content="訳者の角さんがlivlisで感想を書く人を募集していたので、応募したところ本書を頂くことができました。ありがとうございます。 この本は、「CleanCode」や「リファクタリング」に書かれているエッセンスが「CodeCraft」のようなイラストを交じえて、読みやすい文章で書かれています。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://takkanm.github.com/blog/2012/01/15/himizu">
+  <link rel="canonical" href="http://takkanm.github.com/blog/2012/07/02/readreadablecode">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -84,7 +84,7 @@
   
   <header>
     
-      <h1 class="entry-title">ヒミズを見てきた</h1>
+      <h1 class="entry-title">リーダブルコードを読んだ</h1>
     
     
       <p class="meta">
@@ -100,20 +100,40 @@
   
 
 
-<time datetime="2012-01-15T23:53:00+09:00" pubdate data-updated="true">Jan 15<span>th</span>, 2012</time>
+<time datetime="2012-07-02T23:35:00+09:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p><a href="http://himizu.gaga.ne.jp/">ヒミズ</a>を見てきた。劇場で見る映画として今年2本目。一本目は<a href="http://www.paulthemovie.jp/">宇宙人ポール</a>だった。これは後で書くかもしれない。</p>
+<div class="entry-content"><p>訳者の角さんが<a href="http://www.livlis.com/items/show/id/38186/">livlisで感想を書く人を募集</a>していたので、応募したところ本書を頂くことができました。ありがとうございます。</p>
 
-<p>もともと古谷実作品が好きで、漫画版のヒミズは連載中に読んでいてけっこう好きな作品だった。とはいえ、精神状態によって読めるとき読めないときがあるんだけど。で、監督は園子音。園子音映画は<a href="http://www.koi-tumi.com/index.html">恋の罪</a>しか見たことないんだけど。しかし、開始すぐに園子音作品だなぁって思えるスタート。</p>
+<p>この本は、「CleanCode」や「リファクタリング」に書かれているエッセンスが「CodeCraft」のようなイラストを交じえて、読みやすい文章で書かれています。それが安心の角さん訳になっているので、大変読みやすいです。</p>
 
-<p>感想としては、全体で見ると原作好きということもあって、なんとなくもやもやした。悪くはないんだけどね。原作は2000年初期の中学生について描かれているわけなんだけど、映画では2011年3月11日を越えた中学生のリアルを表現するってことで、震災後なんだよね。</p>
+<p>本書は「読みやすい(リーダブルな)コード」を書くためにはどうするとよいかという内容になっています。良いとされるコードを「読みやすい」と置いているのがミソと感じました。この本では、良いコードに必要とされているオブジェクト指向の原則とされていることが難しい言葉でずらずらと書かれているのではなく、「読みやすいコードは、こうである」というのが平易な文章で書かれています。</p>
 
-<p>個別で見ると、二階堂ふみの茶沢さんの怪しい演技とか、中学生からオッサンに年が変更されていたけど原作通りだった夜野はよかった。ただ、住田の周りに大人を多くしたかったのかなぁと思うんだけど、ホームレスを周りにいっぱい置いたのはちょっとなぁ。あと、窪塚洋介の演技を久しぶりに見たけど、あいかわらずって感じでよかった。</p>
+<p>この本のよいところは、手をつけやすいところから話をしているところだと思いました。まずは、変数名等の名前のつけ方から、コード整形、コメントなどのコードの見ためから入っていきます。「良い名前が良いのはわかるけど、どうやって付けるんだよ?」とか思うかもしれないけど、よい名前の基準や選び方などがちゃんと解説されている。何が良いかだけでなく、何故良いかもちゃんと書かれているので、漠然と「良いコードとは何か?」と悩んでいる人は、この基準をベースに考えていけるようになると思います。</p>
+
+<p>またこの見た目の修正は、コードを読むときに適用していけば、コードの理解も深まるしリファクタリングにもなるしで一石二鳥だなぁと感じました。本書を読んでいる最中に実際のプロジェクトに適用していったところ、コードのパターンが明確になり、より大きなリファクタリングをやるための下準備になると思うことができました。</p>
+
+<p>また、日本語版の特典として<a href="http://www.clear-code.com/">株式会社クリアコード</a>の社長である須藤氏の解説が書かれています。解説は<a href="http://www.clear-code.com/blog/2012/6/11.html">クリアコードのブログであるククログ</a>にて、公開されています。解説では、須藤氏によるリーダブルなコードを身につけるために実践すべきことが書かれています。リーダブルなコードを書くためにはチームでも実践する必要があるんだということが書かれているのが特徴です。本編では個人で実践することが書かれており、解説ではリーダブルなコードはチームで育てる必要があるというのを認識させてくれ、とてもバランス良く感じます。</p>
+
+<p><a href="https://twitter.com/kdmsnr/status/216399445166784512">まだ解説を全部暗記できていないのですが</a>、最近は他の人のコードを見たりすることが多くなったので、解説中に書かれている提案コミットは実践するようになりました。解説にあるとおりコミットの diff だけでは何故が伝わらないので、どうしてこうするかというのをコミットメッセージや pull request のコメントに書くようにしています。</p>
+
+<p>最後に、この本をボッチで試行錯誤してコードを書いている人にお勧めしたいと思います。ボッチでというのは、他の人にコードを見せていない、見せていないわけではけどフィードバックを貰えていない人のことを指します。そういった人は、コードの基準が持てず自分のコードに自身が持てないのではないかと思います(私は幸いにして、会社の同僚からツッコミを得ることができ、まだまだ実践はできてませんが良いコードとはどういった感じかというヒントは貰えております)。自信が持てないと、自分のコードを公開するということも大変怖いと感じるのではないでしょうか。そんな方は、この本を読んで「良みやすい」コードの基準を知り、もっと自信を持って書いていけるのではないかと思います。</p>
+
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=takkanm-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4873115655" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=takkanm-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4048676881" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=takkanm-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4894712288" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=takkanm-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4839921946" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
 </div>
 
 
@@ -136,12 +156,12 @@
   
 
 
-<time datetime="2012-01-15T23:53:00+09:00" pubdate data-updated="true">Jan 15<span>th</span>, 2012</time>
+<time datetime="2012-07-02T23:35:00+09:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2012</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/diary/'>diary</a>, <a class='category' href='/blog/categories/movie/'>movie</a>
+    <a class='category' href='/blog/categories/diary/'>diary</a>
   
 </span>
 
@@ -150,13 +170,13 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://takkanm.github.com/blog/2012/01/15/himizu/" data-via="takkanm" data-counturl="http://takkanm.github.com/blog/2012/01/15/himizu/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://takkanm.github.com/blog/2012/07/02/readreadablecode/" data-via="takkanm" data-counturl="http://takkanm.github.com/blog/2012/07/02/readreadablecode/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
   
   
-  <a href="http://b.hatena.ne.jp/entry/http://takkanm.github.com/blog/2012/01/15/himizu/" class="hatena-bookmark-button" data-hatena-bookmark-title="ヒミズを見てきた - ガブリ途中下車の旅〜マサイ族の砦〜" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+  <a href="http://b.hatena.ne.jp/entry/http://takkanm.github.com/blog/2012/07/02/readreadablecode/" class="hatena-bookmark-button" data-hatena-bookmark-title="リーダブルコードを読んだ - ガブリ途中下車の旅〜マサイ族の砦〜" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
   
   
     <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
@@ -166,10 +186,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/01/14/compbook-2012/" title="Previous Post: このコンピュータ書がすごい!2012に参加してきた">&laquo; このコンピュータ書がすごい!2012に参加してきた</a>
+        <a class="basic-alignment left" href="/blog/2012/06/21/sprk2012-sponsor-announcement/" title="Previous Post: 永和システムマネジメントが札幌Ruby会議のスポンサーになりましたと同僚が発表しますのお知らせ">&laquo; 永和システムマネジメントが札幌Ruby会議のスポンサーになりましたと同僚が発表しますのお知らせ</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/02/09/reading-clean-coder/" title="next Post: Clean Coderを読んだ">Clean Coderを読んだ &raquo;</a>
       
     </p>
   </footer>
@@ -316,8 +334,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://takkanm.github.com/blog/2012/01/15/himizu/';
-        var disqus_url = 'http://takkanm.github.com/blog/2012/01/15/himizu/';
+        var disqus_identifier = 'http://takkanm.github.com/blog/2012/07/02/readreadablecode/';
+        var disqus_url = 'http://takkanm.github.com/blog/2012/07/02/readreadablecode/';
         var disqus_script = 'embed.js';
       
     (function () {

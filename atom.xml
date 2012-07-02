@@ -4,7 +4,7 @@
   <title><![CDATA[ガブリ途中下車の旅〜マサイ族の砦〜]]></title>
   <link href="http://takkanm.github.com/atom.xml" rel="self"/>
   <link href="http://takkanm.github.com/"/>
-  <updated>2012-06-21T22:48:33+09:00</updated>
+  <updated>2012-07-02T23:43:31+09:00</updated>
   <id>http://takkanm.github.com/</id>
   <author>
     <name><![CDATA[takkanm]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[リーダブルコードを読んだ]]></title>
+    <link href="http://takkanm.github.com/blog/2012/07/02/readreadablecode/"/>
+    <updated>2012-07-02T23:35:00+09:00</updated>
+    <id>http://takkanm.github.com/blog/2012/07/02/readreadablecode</id>
+    <content type="html"><![CDATA[<p>訳者の角さんが<a href="http://www.livlis.com/items/show/id/38186/">livlisで感想を書く人を募集</a>していたので、応募したところ本書を頂くことができました。ありがとうございます。</p>
+
+<p>この本は、「CleanCode」や「リファクタリング」に書かれているエッセンスが「CodeCraft」のようなイラストを交じえて、読みやすい文章で書かれています。それが安心の角さん訳になっているので、大変読みやすいです。</p>
+
+<p>本書は「読みやすい(リーダブルな)コード」を書くためにはどうするとよいかという内容になっています。良いとされるコードを「読みやすい」と置いているのがミソと感じました。この本では、良いコードに必要とされているオブジェクト指向の原則とされていることが難しい言葉でずらずらと書かれているのではなく、「読みやすいコードは、こうである」というのが平易な文章で書かれています。</p>
+
+<p>この本のよいところは、手をつけやすいところから話をしているところだと思いました。まずは、変数名等の名前のつけ方から、コード整形、コメントなどのコードの見ためから入っていきます。「良い名前が良いのはわかるけど、どうやって付けるんだよ?」とか思うかもしれないけど、よい名前の基準や選び方などがちゃんと解説されている。何が良いかだけでなく、何故良いかもちゃんと書かれているので、漠然と「良いコードとは何か?」と悩んでいる人は、この基準をベースに考えていけるようになると思います。</p>
+
+<p>またこの見た目の修正は、コードを読むときに適用していけば、コードの理解も深まるしリファクタリングにもなるしで一石二鳥だなぁと感じました。本書を読んでいる最中に実際のプロジェクトに適用していったところ、コードのパターンが明確になり、より大きなリファクタリングをやるための下準備になると思うことができました。</p>
+
+<p>また、日本語版の特典として<a href="http://www.clear-code.com/">株式会社クリアコード</a>の社長である須藤氏の解説が書かれています。解説は<a href="http://www.clear-code.com/blog/2012/6/11.html">クリアコードのブログであるククログ</a>にて、公開されています。解説では、須藤氏によるリーダブルなコードを身につけるために実践すべきことが書かれています。リーダブルなコードを書くためにはチームでも実践する必要があるんだということが書かれているのが特徴です。本編では個人で実践することが書かれており、解説ではリーダブルなコードはチームで育てる必要があるというのを認識させてくれ、とてもバランス良く感じます。</p>
+
+<p><a href="https://twitter.com/kdmsnr/status/216399445166784512">まだ解説を全部暗記できていないのですが</a>、最近は他の人のコードを見たりすることが多くなったので、解説中に書かれている提案コミットは実践するようになりました。解説にあるとおりコミットの diff だけでは何故が伝わらないので、どうしてこうするかというのをコミットメッセージや pull request のコメントに書くようにしています。</p>
+
+<p>最後に、この本をボッチで試行錯誤してコードを書いている人にお勧めしたいと思います。ボッチでというのは、他の人にコードを見せていない、見せていないわけではけどフィードバックを貰えていない人のことを指します。そういった人は、コードの基準が持てず自分のコードに自身が持てないのではないかと思います(私は幸いにして、会社の同僚からツッコミを得ることができ、まだまだ実践はできてませんが良いコードとはどういった感じかというヒントは貰えております)。自信が持てないと、自分のコードを公開するということも大変怖いと感じるのではないでしょうか。そんな方は、この本を読んで「良みやすい」コードの基準を知り、もっと自信を持って書いていけるのではないかと思います。</p>
+
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=takkanm-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4873115655" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=takkanm-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4048676881" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=takkanm-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4894712288" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=takkanm-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4839921946" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[永和システムマネジメントが札幌Ruby会議のスポンサーになりましたと同僚が発表しますのお知らせ]]></title>
