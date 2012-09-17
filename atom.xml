@@ -4,7 +4,7 @@
   <title><![CDATA[ガブリ途中下車の旅〜マサイ族の砦〜]]></title>
   <link href="http://takkanm.github.com/atom.xml" rel="self"/>
   <link href="http://takkanm.github.com/"/>
-  <updated>2012-07-02T23:43:31+09:00</updated>
+  <updated>2012-09-18T01:31:01+09:00</updated>
   <id>http://takkanm.github.com/</id>
   <author>
     <name><![CDATA[takkanm]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[札幌 Ruby 会議 2012 で発表してきました]]></title>
+    <link href="http://takkanm.github.com/blog/2012/09/18/talk-in-sapporo-rubykaigi-2012/"/>
+    <updated>2012-09-18T01:26:00+09:00</updated>
+    <id>http://takkanm.github.com/blog/2012/09/18/talk-in-sapporo-rubykaigi-2012</id>
+    <content type="html"><![CDATA[<p>9 月 14 日 〜 16 日の間、札幌市産業進行センターで開催された<a href="http://sapporo.rubykaigi.org/2012/ja/">札幌 Ruby 会議 2012)</a>で、<a href="http://sapporo.rubykaigi.org/2012/ja/schedule/details/53.html">ソーシャルコーディング時代のふつうのプログラマサバイバルガイド
+</a>という発表をしてきました(参加の感想はまた別エントリで)。聞いていただいたみなさん、ありがとうございました。</p>
+
+<script async class="speakerdeck-embed" data-id="50558d9f4a7779000201d4e5" data-ratio="1.299492385786802" src="http://takkanm.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<p>内容は、GitHub 導入後の永和システムマネジメント内でどいうった気持ちでコードを書くようになったかというお話です。<a href="https://twitter.com/shyouhei/status/247173463658344448">ミサワトーク</a>はできませんでしたが。</p>
+
+<p>できたコードの善し悪しはおいておいて、誰もがコードを書いているときって全力で書いていると思います。その全力で書いたコードに対して、正しいこととはいえ批判がつくというのはつらいことだと思います。しかし、コードを書くことを生業として選択した以上、正しくありたいとわたしは思います。ですので、正しくあるために努力し続けていかないといけないと思うわけです。</p>
+
+<p>また、TimeLine 上で以下のような意見や質問をみかけました。</p>
+
+<ul>
+<li>反発すればいいのに</li>
+<li>彼はレビューさせてもらえてないのだろうか</li>
+</ul>
+
+
+<p>「反発すればいいのに」という意見については、していいと思いますし、することもあります。反発するには、自分の書いたコードに対しての正しい意思が必要になると思います。そういうコードが書けるように精進していかないといけないと思います。</p>
+
+<p>レビューは、当然わたしもしてます。レビュワーになる資格というのはなくて、コードを見れる人なら誰でもレビューワーになれます。</p>
+
+<p>最後になりましたが、仕事帰りに話の筋の相談にのってくれたkoicさん、スライドができてないのに札幌駅のドトールでレビューしていただいた角谷さん、会期中実行委員長業の傍らレビューや相談にのっていただいた島田さん、わたしの仕事や私事の都合で資料を置くことしかできなかったのにいろいろフィードバックをくれたやさしい同僚たち、ありがとうございました。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[リーダブルコードを読んだ]]></title>
