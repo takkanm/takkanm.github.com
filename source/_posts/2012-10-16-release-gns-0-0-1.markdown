@@ -15,4 +15,4 @@ private なリポジトリへの通知も見たいので、[GitHub API](http://d
 
 <a href="http://www.flickr.com/photos/takkanm/8090496232/" title="gns-sample by takkanm, on Flickr"><img src="http://farm9.staticflickr.com/8196/8090496232_d6673d7021_m.jpg" width="240" height="58" alt="gns-sample"></a>
 
-通知には [terminal-notifier](https://github.com/alloy/terminal-notifier/tree/master/Ruby) を使ってるのですが、これだと通知センターのタイトルとアイコンが terminal-notifier のものになるので、ここも自作できたらいいなぁと思っております。あと、リアルタイムで取得しているわけではなく 1 分間隔で監視しているので、監視間隔をもう少し変更できるといいなぁ。
+通知には [terminal-notifier](https://github.com/alloy/terminal-notifier/tree/master/Ruby) を使ってるのですが、これだと通知センターのタイトルとアイコンが terminal-notifier のものになるので、ここも自作できたらいいなぁと思っております。あと、リアルタイムで取得しているわけではなく 1 分間隔で監視しているので、監視間隔をもう少し変更できるといいなぁと思ってます。
